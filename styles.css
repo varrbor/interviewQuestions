@@ -1,0 +1,28 @@
+p a {
+    font-family: Roboto,Arial,sans-serif;
+    font-kerning: normal;
+    color: #0d0d0d;
+    font-size:14px;
+    text-align:left;
+    margin-bottom: 4px;
+    text-decoration:none;
+}
+
+p {
+    margin: 0px;
+    padding-bottom: 4px;
+}
+
+h2 {
+    font-family: Roboto,Arial,sans-serif;
+    font-kerning: normal;
+    color: #0d0d0d;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: Roboto,Arial,sans-serif;
+    font-kerning: normal;
+    color: #0d0d0d;
+}
