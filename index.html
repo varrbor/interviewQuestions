@@ -1,10 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="styles.css">
-<title>Page Title</title>
+  <link rel="stylesheet" href="styles.css">
+  <title>Page Title</title>
+  <meta charset="UTF-8">
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      const url = window.location.href;
+      const baseUrl = url.substring(0, url.lastIndexOf('/') + 1);
+
+      document.querySelectorAll('a[data-file]').forEach(link => {
+        const file = link.getAttribute('data-file');
+        link.href = baseUrl + file;
+      });
+
+    //   // приклад використання assetURL:
+    //   const rootURL = window.location.origin;
+    //   const assetURL = `${rootURL}/images/logo.png`;
+    //   console.log("Asset URL:", assetURL);
+    });
+  </script>
 </head>
 <body>
-    ŌŌŌŌ
+  <div style="color:blue; padding:0 150px 0 150px">
+    <p><a data-file="general.html" target="_blank">General</a></p>
+    <p><a data-file="jscore.html" target="_blank">Js core</a></p>
+    <p><a data-file="functions.html" target="_blank">Functions</a></p>
+    <p><a data-file="frontend.html" target="_blank">Front-end</a></p>
+    <p><a data-file="verstka.html" target="_blank">Верстка</a></p>
+    <p><a data-file="reakt.html" target="_blank">React</a></p>
+    <p><a data-file="instruments.html" target="_blank">Інструменти та інше</a></p>
+    <p><a data-file="practical.html" target="_blank">Практичні завдання</a></p>
+    <p><a href="https://www.linkedin.com/pulse/100-interview-questions-senior-frontend-engineer-osama-soliman-/" target="_blank">Linkedin 100 senior interview frontend questions</a></p>
+    <p><a data-file="typescript.html" target="_blank">Typescript</a></p>
+    <p><a data-file="scrum.html" target="_blank">Scrum</a></p>
+    <p><a data-file="exersises.html" target="_blank">Exersises</a></p>
+    <p><a data-file="exersises2.html" target="_blank">Exersises2</a></p>
+  </div>
 </body>
 </html>
