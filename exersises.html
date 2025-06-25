@@ -1,94 +1,103 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="styles.css">
-<title>Page Title</title>
+  <meta charset="UTF-8" />
+  <title>Interview Exercises</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      const baseUrl = window.location.href.substring(0, window.location.href.lastIndexOf('/') + 1);
+      document.querySelectorAll('a[data-file]').forEach(link => {
+        const file = link.getAttribute('data-file');
+        link.href = baseUrl + file;
+      });
+    });
+  </script>
 </head>
 <body>
-    <div style="color:blue; padding:0 150px 0 150px">
-        <ol>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/1_exersises.html" target="_blank">1</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/2_exersises.html" target="_blank">2</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/3_exersises.html" target="_blank">3</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/4_exersises.html" target="_blank">4</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/5_exersises.html" target="_blank">5</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/6_exersises.html" target="_blank">6</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/7_exersises.html" target="_blank">7</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/8_exersises.html" target="_blank">8</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/9_exersises.html" target="_blank">9</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/10_exersises.html" target="_blank">10</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/11_exersises.html" target="_blank">11</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/12_exersises.html" target="_blank">12</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/13_exersises.html" target="_blank">13</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/14_exersises.html" target="_blank">14</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/15_exersises.html" target="_blank">15</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/16_exersises.html" target="_blank">16</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/17_exersises.html" target="_blank">17</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/18_exersises.html" target="_blank">18</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/19_exersises.html" target="_blank">19</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/20_exersises.html" target="_blank">20</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/21_exersises.html" target="_blank">21</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/22_exersises.html" target="_blank">22</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/23_exersises.html" target="_blank">23</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/24_exersises.html" target="_blank">24</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/25_exersises.html" target="_blank">25</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/26_exersises.html" target="_blank">26</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/27_exersises.html" target="_blank">27</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/28_exersises.html" target="_blank">28</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/29_exersises.html" target="_blank">29</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/30_exersises.html" target="_blank">30</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/31_exersises.html" target="_blank">31</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/32_exersises.html" target="_blank">32</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/33_exersises.html" target="_blank">33</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/34_exersises.html" target="_blank">34</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/35_exersises.html" target="_blank">35</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/36_exersises.html" target="_blank">36</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/37_exersises.html" target="_blank">37</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/38_exersises.html" target="_blank">38</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/39_exersises.html" target="_blank">39</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/40_exersises.html" target="_blank">40</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/41_exersises.html" target="_blank">41</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/42_exersises.html" target="_blank">42</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/43_exersises.html" target="_blank">43</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/44_exersises.html" target="_blank">44</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/45_exersises.html" target="_blank">45</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/46_exersises.html" target="_blank">46</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/47_exersises.html" target="_blank">47</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/48_exersises.html" target="_blank">48</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/49_exersises.html" target="_blank">49</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/50_exersises.html" target="_blank">50</a></p></li>   
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/51_exersises.html" target="_blank">51</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/52_exersises.html" target="_blank">52</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/53_exersises.html" target="_blank">53</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/54_exersises.html" target="_blank">54</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/55_exersises.html" target="_blank">55</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/56_exersises.html" target="_blank">56</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/57_exersises.html" target="_blank">57</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/58_exersises.html" target="_blank">58</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/59_exersises.html" target="_blank">59</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/60_exersises.html" target="_blank">60</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/61_exersises.html" target="_blank">61</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/62_exersises.html" target="_blank">62</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/63_exersises.html" target="_blank">63</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/64_exersises.html" target="_blank">64</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/65_exersises.html" target="_blank">65</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/66_exersises.html" target="_blank">66</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/67_exersises.html" target="_blank">67</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/68_exersises.html" target="_blank">68</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/69_exersises.html" target="_blank">69</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/70_exersises.html" target="_blank">70</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/71_exersises.html" target="_blank">71</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/72_exersises.html" target="_blank">72</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/73_exersises.html" target="_blank">73</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/74_exersises.html" target="_blank">74</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/75_exersises.html" target="_blank">75</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/76_exersises.html" target="_blank">76</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/77_exersises.html" target="_blank">77</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/78_exersises.html" target="_blank">78</a></p></li>
-            <li><p><a  href="file:///Users/varrbor/interviewQuestions/exersises/79_exersises.html" target="_blank">79</a></p></li>
-           
-          </ol>   
-    </div>
-
+  <div style="color:blue; padding:0 150px;">
+    <ol>
+      <li><p><a data-file="exersises/English.html" target="_blank">English</a></p></li>
+      <li><p><a data-file="exersises/Polska.html" target="_blank">Polska</a></p></li>
+      <li><p><a data-file="exersises/3_exersises.html" target="_blank">3</a></p></li>
+      <li><p><a data-file="exersises/4_exersises.html" target="_blank">4</a></p></li>
+      <li><p><a data-file="exersises/5_exersises.html" target="_blank">5</a></p></li>
+      <li><p><a data-file="exersises/6_exersises.html" target="_blank">6</a></p></li>
+      <li><p><a data-file="exersises/7_exersises.html" target="_blank">7</a></p></li>
+      <li><p><a data-file="exersises/8_exersises.html" target="_blank">8</a></p></li>
+      <li><p><a data-file="exersises/9_exersises.html" target="_blank">9</a></p></li>
+      <li><p><a data-file="exersises/10_exersises.html" target="_blank">10</a></p></li>
+      <li><p><a data-file="exersises/11_exersises.html" target="_blank">11</a></p></li>
+      <li><p><a data-file="exersises/12_exersises.html" target="_blank">12</a></p></li>
+      <li><p><a data-file="exersises/13_exersises.html" target="_blank">13</a></p></li>
+      <li><p><a data-file="exersises/14_exersises.html" target="_blank">14</a></p></li>
+      <li><p><a data-file="exersises/15_exersises.html" target="_blank">15</a></p></li>
+      <li><p><a data-file="exersises/16_exersises.html" target="_blank">16</a></p></li>
+      <li><p><a data-file="exersises/17_exersises.html" target="_blank">17</a></p></li>
+      <li><p><a data-file="exersises/18_exersises.html" target="_blank">18</a></p></li>
+      <li><p><a data-file="exersises/19_exersises.html" target="_blank">19</a></p></li>
+      <li><p><a data-file="exersises/20_exersises.html" target="_blank">20</a></p></li>
+      <li><p><a data-file="exersises/21_exersises.html" target="_blank">21</a></p></li>
+      <li><p><a data-file="exersises/22_exersises.html" target="_blank">22</a></p></li>
+      <li><p><a data-file="exersises/23_exersises.html" target="_blank">23</a></p></li>
+      <li><p><a data-file="exersises/24_exersises.html" target="_blank">24</a></p></li>
+      <li><p><a data-file="exersises/25_exersises.html" target="_blank">25</a></p></li>
+      <li><p><a data-file="exersises/26_exersises.html" target="_blank">26</a></p></li>
+      <li><p><a data-file="exersises/27_exersises.html" target="_blank">27</a></p></li>
+      <li><p><a data-file="exersises/28_exersises.html" target="_blank">28</a></p></li>
+      <li><p><a data-file="exersises/29_exersises.html" target="_blank">29</a></p></li>
+      <li><p><a data-file="exersises/30_exersises.html" target="_blank">30</a></p></li>
+      <li><p><a data-file="exersises/31_exersises.html" target="_blank">31</a></p></li>
+      <li><p><a data-file="exersises/32_exersises.html" target="_blank">32</a></p></li>
+      <li><p><a data-file="exersises/33_exersises.html" target="_blank">33</a></p></li>
+      <li><p><a data-file="exersises/34_exersises.html" target="_blank">34</a></p></li>
+      <li><p><a data-file="exersises/35_exersises.html" target="_blank">35</a></p></li>
+      <li><p><a data-file="exersises/36_exersises.html" target="_blank">36</a></p></li>
+      <li><p><a data-file="exersises/37_exersises.html" target="_blank">37</a></p></li>
+      <li><p><a data-file="exersises/38_exersises.html" target="_blank">38</a></p></li>
+      <li><p><a data-file="exersises/39_exersises.html" target="_blank">39</a></p></li>
+      <li><p><a data-file="exersises/40_exersises.html" target="_blank">40</a></p></li>
+      <li><p><a data-file="exersises/41_exersises.html" target="_blank">41</a></p></li>
+      <li><p><a data-file="exersises/42_exersises.html" target="_blank">42</a></p></li>
+      <li><p><a data-file="exersises/43_exersises.html" target="_blank">43</a></p></li>
+      <li><p><a data-file="exersises/44_exersises.html" target="_blank">44</a></p></li>
+      <li><p><a data-file="exersises/45_exersises.html" target="_blank">45</a></p></li>
+      <li><p><a data-file="exersises/46_exersises.html" target="_blank">46</a></p></li>
+      <li><p><a data-file="exersises/47_exersises.html" target="_blank">47</a></p></li>
+      <li><p><a data-file="exersises/48_exersises.html" target="_blank">48</a></p></li>
+      <li><p><a data-file="exersises/49_exersises.html" target="_blank">49</a></p></li>
+      <li><p><a data-file="exersises/50_exersises.html" target="_blank">50</a></p></li>
+      <li><p><a data-file="exersises/51_exersises.html" target="_blank">51</a></p></li>
+      <li><p><a data-file="exersises/52_exersises.html" target="_blank">52</a></p></li>
+      <li><p><a data-file="exersises/53_exersises.html" target="_blank">53</a></p></li>
+      <li><p><a data-file="exersises/54_exersises.html" target="_blank">54</a></p></li>
+      <li><p><a data-file="exersises/55_exersises.html" target="_blank">55</a></p></li>
+      <li><p><a data-file="exersises/56_exersises.html" target="_blank">56</a></p></li>
+      <li><p><a data-file="exersises/57_exersises.html" target="_blank">57</a></p></li>
+      <li><p><a data-file="exersises/58_exersises.html" target="_blank">58</a></p></li>
+      <li><p><a data-file="exersises/59_exersises.html" target="_blank">59</a></p></li>
+      <li><p><a data-file="exersises/60_exersises.html" target="_blank">60</a></p></li>
+      <li><p><a data-file="exersises/61_exersises.html" target="_blank">61</a></p></li>
+      <li><p><a data-file="exersises/62_exersises.html" target="_blank">62</a></p></li>
+      <li><p><a data-file="exersises/63_exersises.html" target="_blank">63</a></p></li>
+      <li><p><a data-file="exersises/64_exersises.html" target="_blank">64</a></p></li>
+      <li><p><a data-file="exersises/65_exersises.html" target="_blank">65</a></p></li>
+      <li><p><a data-file="exersises/66_exersises.html" target="_blank">66</a></p></li>
+      <li><p><a data-file="exersises/67_exersises.html" target="_blank">67</a></p></li>
+      <li><p><a data-file="exersises/68_exersises.html" target="_blank">68</a></p></li>
+      <li><p><a data-file="exersises/69_exersises.html" target="_blank">69</a></p></li>
+      <li><p><a data-file="exersises/70_exersises.html" target="_blank">70</a></p></li>
+      <li><p><a data-file="exersises/71_exersises.html" target="_blank">71</a></p></li>
+      <li><p><a data-file="exersises/72_exersises.html" target="_blank">72</a></p></li>
+      <li><p><a data-file="exersises/73_exersises.html" target="_blank">73</a></p></li>
+      <li><p><a data-file="exersises/74_exersises.html" target="_blank">74</a></p></li>
+      <li><p><a data-file="exersises/75_exersises.html" target="_blank">75</a></p></li>
+      <li><p><a data-file="exersises/76_exersises.html" target="_blank">76</a></p></li>
+      <li><p><a data-file="exersises/77_exersises.html" target="_blank">77</a></p></li>
+      <li><p><a data-file="exersises/78_exersises.html" target="_blank">78</a></p></li>
+      <li><p><a data-file="exersises/79_exersises.html" target="_blank">79</a></p></li>
+    </ol>
+  </div>
 </body>
 </html>
